@@ -18,26 +18,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-	// Dependency for PostgresSQL
-	implementation 'org.postgresql:postgresql'
 	
-	// JPA repository
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	
-	// Lombok
-	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.18'
-
-	// Faker
-	implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
-
-	// Validation
-//	implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
-	implementation 'org.springframework.boot:spring-boot-starter-validation:2.4.9'
-
-
 	// External JARs
+	compile files('libs/HLBlocking.jar')
 	compile files('libs/mmmreader.jar')
+	compile files('libs/dlparserlib.jar')
 }
 
 test {

@@ -15,3 +15,60 @@
 16/08/21 18:35:53.353 - ERROR      - [ThreadID: -1285572864] - ----------------------
 16/08/21 18:35:53.353 - ERROR      - [ThreadID: -1285572864] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(125) : MMMReader_Initialise() -   Already initialised
 16/08/21 18:35:53.353 - ERROR      - [ThreadID: -1285572864] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(168) : MMMReader_Initialise() -   [caught]: Already initialised
+17/08/21 09:38:29.765 - ERROR      - [ThreadID: -1777461504] - ----------------------
+17/08/21 09:38:29.765 - ERROR      - [ThreadID: -1777461504] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 09:38:29.765 - ERROR      - [ThreadID: -1777461504] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - ----------------------
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000LowLevelAPI/Settings.cpp(1034) : MMMReader_LL_LoadSettings() -   No scanner is connected
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000LowLevelAPI/Settings.cpp(1074) : MMMReader_LL_LoadSettings() -   [caught]: No scanner is connected
+17/08/21 11:15:11.616 - WARNING    - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/ReaderThread.cpp(2202) : ErrorCallback() -    - Setting reader to errored state.
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - ----------------------
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(938) : MMMReader_ReadDocument() -   Not initialised
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: Not initialised
+17/08/21 11:15:11.616 - WARNING    - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/ReaderThread.cpp(2202) : ErrorCallback() -    - Setting reader to errored state.
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - ----------------------
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(309) : MMMReader_Shutdown() -   Not initialised
+17/08/21 11:15:11.616 - ERROR      - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(357) : MMMReader_Shutdown() -   [caught]: Not initialised
+17/08/21 11:15:11.616 - WARNING    - [ThreadID: 369010432] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/ReaderThread.cpp(2202) : ErrorCallback() -    - Setting reader to errored state.
+17/08/21 11:17:26.115 - ERROR      - [ThreadID: 365852416] - ----------------------
+17/08/21 11:17:26.115 - ERROR      - [ThreadID: 365852416] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 11:17:26.115 - ERROR      - [ThreadID: 365852416] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 11:24:55.373 - ERROR      - [ThreadID: 1533015808] - ----------------------
+17/08/21 11:24:55.373 - ERROR      - [ThreadID: 1533015808] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 11:24:55.373 - ERROR      - [ThreadID: 1533015808] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 12:06:38.257 - ERROR      - [ThreadID: 1755088640] - ----------------------
+17/08/21 12:06:38.257 - ERROR      - [ThreadID: 1755088640] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(125) : MMMReader_Initialise() -   Already initialised
+17/08/21 12:06:38.257 - ERROR      - [ThreadID: 1755088640] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(168) : MMMReader_Initialise() -   [caught]: Already initialised
+17/08/21 12:19:21.175 - ERROR      - [ThreadID: 293299968] - ----------------------
+17/08/21 12:19:21.175 - ERROR      - [ThreadID: 293299968] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 12:19:21.175 - ERROR      - [ThreadID: 293299968] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 12:19:31.975 - ERROR      - [ThreadID: 292247296] - ----------------------
+17/08/21 12:19:31.975 - ERROR      - [ThreadID: 292247296] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 12:19:31.975 - ERROR      - [ThreadID: 292247296] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 14:58:44.615 - ERROR      - [ThreadID: 1428870912] - ----------------------
+17/08/21 14:58:44.615 - ERROR      - [ThreadID: 1428870912] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 14:58:44.615 - ERROR      - [ThreadID: 1428870912] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 14:59:14.730 - ERROR      - [ThreadID: 1427818240] - ----------------------
+17/08/21 14:59:14.730 - ERROR      - [ThreadID: 1427818240] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 14:59:14.730 - ERROR      - [ThreadID: 1427818240] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 14:59:28.186 - ERROR      - [ThreadID: 1426765568] - ----------------------
+17/08/21 14:59:28.186 - ERROR      - [ThreadID: 1426765568] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 14:59:28.186 - ERROR      - [ThreadID: 1426765568] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 14:59:44.608 - ERROR      - [ThreadID: 1425712896] - ----------------------
+17/08/21 14:59:44.609 - ERROR      - [ThreadID: 1425712896] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 14:59:44.609 - ERROR      - [ThreadID: 1425712896] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 15:00:54.553 - ERROR      - [ThreadID: 1422554880] - ----------------------
+17/08/21 15:00:54.553 - ERROR      - [ThreadID: 1422554880] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 15:00:54.553 - ERROR      - [ThreadID: 1422554880] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 15:01:08.313 - ERROR      - [ThreadID: 1434126080] - ----------------------
+17/08/21 15:01:08.313 - ERROR      - [ThreadID: 1434126080] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 15:01:08.313 - ERROR      - [ThreadID: 1434126080] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 15:02:37.554 - ERROR      - [ThreadID: 1428870912] - ----------------------
+17/08/21 15:02:37.555 - ERROR      - [ThreadID: 1428870912] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 15:02:37.555 - ERROR      - [ThreadID: 1428870912] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 15:02:53.568 - ERROR      - [ThreadID: 1427818240] - ----------------------
+17/08/21 15:02:53.568 - ERROR      - [ThreadID: 1427818240] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 15:02:53.568 - ERROR      - [ThreadID: 1427818240] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window
+17/08/21 15:03:01.957 - ERROR      - [ThreadID: 1426765568] - ----------------------
+17/08/21 15:03:01.957 - ERROR      - [ThreadID: 1426765568] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(961) : MMMReader_ReadDocument() -   No document on window
+17/08/21 15:03:01.957 - ERROR      - [ThreadID: 1426765568] - /home/developer/development/documentreaders/RTE8000/Shared/Core-v3/RTE8000HighLevelAPI/RTE8000HighLevelAPI.cpp(1031) : MMMReader_ReadDocument() -   [caught]: No document on window

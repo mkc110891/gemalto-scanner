@@ -16,6 +16,7 @@ import net.idscan.dlparser.DLParser.DLResult;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 
 /**
  * <p>Created By Mayank Chauhan on 16/8/21 - 5:12 PM</p>
@@ -46,13 +47,13 @@ public class IDScannerServiceImpl implements IDScannerService, ErrorHandler {
         ErrorCode errorCode = reader.ReadDocument();
         String var6 = null;
         if (errorCode == ErrorCode.NO_ERROR_OCCURRED) {
-            int var3 = 300000;
+            int var3 = 3000000;
             byte[] var4 = new byte[200];
             int[] var5 = new int[]{200};
             if (reader.GetData(DataType.CD_CODELINE, var4, var5) == ErrorCode.NO_ERROR_OCCURRED) {
                 var6 = new String(var4, 0, var5[0] - 1);
                 if (var6.startsWith("P")) {
-                    String var10000 = var6.substring(0, 43);
+                    String var10000 = var6.substring(0, 44);
                     var6 = var10000 + "\r\n" + var6.substring(44, var6.length());
                 }
 
@@ -62,7 +63,9 @@ public class IDScannerServiceImpl implements IDScannerService, ErrorHandler {
 
             byte[] var8 = new byte[var3];
             int[] var7 = new int[]{var3};
-            if (reader.GetData(DataType.CD_IMAGEIR, var8, var7) == ErrorCode.NO_ERROR_OCCURRED) {
+            if (reader.GetData(DataType.CD_BARCODE_PDF417, var8, var7) == ErrorCode.NO_ERROR_OCCURRED) {
+                System.out.println(Arrays.toString(var7));
+//                System.out.println(Arrays.toString(var8));
             }
         }
         reader.Shutdown();
@@ -74,6 +77,56 @@ public class IDScannerServiceImpl implements IDScannerService, ErrorHandler {
         try {
             System.out.println("Parser Version: " + parser.getVersion());
             parser.setup(_KEY);
+            readerString = "@\n" +
+                    "\u001E\n" +
+                    "ANSI 636099030001DL00310377DLDCAB   \n" +
+                    "DCBNONE      \n" +
+                    "DCDNONE \n" +
+                    "DBA08202009\n" +
+                    "DCSMURPHY                                  \n" +
+                    "DCTBRENNA VICTORIA C                                                               \n" +
+                    "DBD08202004\n" +
+                    "DBB01011970\n" +
+                    "DBC1\n" +
+                    "DAYBRO\n" +
+                    "DAU 64 in\n" +
+                    "DAG111 DMV STREET                     \n" +
+                    "DAICITY                \n" +
+                    "DAJVA\n" +
+                    "DAK12345000000\n" +
+                    "DAQ000000900                \n" +
+                    "DCFASDE44325665300536       \n" +
+                    "DCGUSA\n" +
+                    "DCHNONE\n" +
+                    "\n";
+            // KV License
+            readerString = "@\n" +
+                    "\u001E\n" +
+                    "ANSI 636000030001DL00310447DLDCADM  \n" +
+                    "DCB9         \n" +
+                    "DCDNONE \n" +
+                    "DBA11152020\n" +
+                    "DCSVAGHELA                                 \n" +
+                    "DCTKUNALSINH,LAXMANSINH                                                            \n" +
+                    "DBD11262019\n" +
+                    "DBB01031980\n" +
+                    "DBC1\n" +
+                    "DAYBLK\n" +
+                    "DAU070 in\n" +
+                    "DAG13685 AIR AND SPACE MUSEUM PKWY    \n" +
+                    "DAIHERNDON             \n" +
+                    "DAJVA\n" +
+                    "DAK201714117  \n" +
+                    "DAQA60895001                \n" +
+                    "DCF085122717                \n" +
+                    "DCGUSA\n" +
+                    "DCHD   \n" +
+                    "DDC00000000\n" +
+                    "DDB12102008\n" +
+                    "DDDY\n" +
+                    "DDAF\n" +
+                    "DCK0060101432396300         \n" +
+                    "DCADM  \n";
             DLParser.DLResult res = parser.parse(readerString.getBytes("UTF8"));
             //print result.
             System.out.println("Full name: " + res.fullName);
